@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ApolloClient, ApolloProvider, } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider, } from '@apollo/client';
 import { Provider } from 'react-redux';
 import store from './utils/store';
 
@@ -23,6 +23,7 @@ const client = new ApolloClient({
     })
   },
   uri: '/graphql',
+  cache: new InMemoryCache()
 })
 
 function App() {
