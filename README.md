@@ -3,6 +3,8 @@
   [![License: MIT License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
   ## Description 
+  
+  [Deployed](https://damp-headland-32504.herokuapp.com/)
 
   An e-commerce site that allows users to create an account, add items to a cart, and simulate checking out with stripe.
 
